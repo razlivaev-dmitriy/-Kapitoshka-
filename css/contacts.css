@@ -1,0 +1,42 @@
+.map {
+    margin: 50px;
+    border-radius: 15px;
+    width: 90vw;
+    position: relative;
+    z-index: 50;
+    margin-bottom: 100px;
+}
+
+.map::before {
+    content: "";
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    background-color: #032CAB; 
+    z-index: 1;
+    border-radius: 15px;
+    width: 95vw;
+    height: 500px;
+    position: absolute;
+}
+
+.text {
+    color: #fff;
+    z-index: 100;
+    font-size: 45px;
+    margin-left: 650px;
+    margin-top: 30px;
+    position: absolute;
+    line-height: 0.5;
+}
+
+b{
+    margin-left: 100px;
+}
+
+iframe {
+    position: absolute;
+    position: relative;
+    z-index: 100;
+    background: white;
+}
