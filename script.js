@@ -137,6 +137,8 @@ window.onload = function () {
 
     $('.slider').bxSlider({
         pagerCustom: '.slider_min',
-        infiniteLoop: true
+        infiniteLoop: true,
+        speed: 250,
+        easing: "linear"
     });
 }
