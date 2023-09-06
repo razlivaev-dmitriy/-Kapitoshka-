@@ -60,8 +60,6 @@ window.onload = function () {
         }
         uL = vals[0];
         uP = vals[1];
-        console.log(uL)
-        console.log(uP)
     }
     $("#form_but1").on("click", func1);
     $("#form_but2").on("click", func2);
@@ -135,4 +133,10 @@ window.onload = function () {
             ottuda();
         }
     })
+
+
+    $('.slider').bxSlider({
+        pagerCustom: '.slider_min',
+        infiniteLoop: true
+    });
 }
