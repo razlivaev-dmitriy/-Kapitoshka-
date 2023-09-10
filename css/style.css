@@ -601,6 +601,9 @@ footer {
         }
     }
     @media screen and (max-width: 400px) {
+        body{
+            height: 120vh;
+        }
         .by_menu{
             font-size: 22px;
             background: linear-gradient(to bottom left, #211D7B, 20%, #032CAB, 60%, #0B9DFB, 90%, #fff);
