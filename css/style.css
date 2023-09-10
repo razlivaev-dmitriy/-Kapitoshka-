@@ -531,6 +531,7 @@ footer {
     @media screen and (max-width: 568px) {
         .by_menu{
             font-size: 27px;
+            background: linear-gradient(to bottom left, #211D7B, 20%, #032CAB, 60%, #0B9DFB, 90%, #fff);
         }
         #first_img_info{
             width: 140px;
@@ -596,6 +597,117 @@ footer {
         }
         footer{
             font-size: 12.5px;
+            font-weight: 600;
+        }
+    }
+    @media screen and (max-width: 400px) {
+        .by_menu{
+            font-size: 22px;
+            background: linear-gradient(to bottom left, #211D7B, 20%, #032CAB, 60%, #0B9DFB, 90%, #fff);
+        }
+        #first_p_info{
+            font-size: 26px;
+            margin-bottom: 12px;
+        }
+        #first_letter_info{
+            font-size: 15px;
+            line-height: 90%;
+            margin-bottom: 10px;
+        }
+        .cont_info{
+            height: 225px;
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+        .cont_info::before{
+            height: 225px;
+        }
+        .info{
+            max-width: 90%;
+        }
+        #second_letter_info{
+            font-size: 12.5px;
+            margin-bottom: 20px;
+        }
+        .slider_cont{
+            height: 84px;
+            margin-bottom: 25px;
+        }
+        .bx-wrapper{
+            width: 150px;
+            height: 84px;
+            box-shadow: 0px 0px 20px #0B9DFB;
+        }
+        .slider img{
+            width: 150px;
+        }
+        .slider_min img{
+            width: 70px;
+        }
+        .slider_min{
+            margin-bottom: 20px;
+        }
+        #cont_info_id1{
+            height: 250px;
+        }
+        #cont_info_id1::before{
+            height: 250px;
+        }
+        #third_letter_info{
+            font-size: 12px;
+            line-height: 90%;
+        }
+        #last_p_info{
+            line-height: 90%;
+            margin-top: 5px;
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+        #third_img_info{
+            height: 120px;
+            margin: 0;
+        }
+        #cont_info_id2{
+            height: 205px;
+        }
+        #cont_info_id2::before{
+            height: 205px;
+        }
+        .forms_all{
+            font-size: 20px;
+            height: 170px;
+        }
+        .form_stick{
+            margin-top: 25px;
+            margin-left: 20px;
+        }
+        .reg_name{
+            margin-left: 20px;
+        }
+        #vhod{
+            margin-left: 10px;
+        }
+        #reg{
+            margin-left: 10px;
+        }
+        input{
+            margin-bottom: 15px;
+            width: 280px;
+            height: 35px;
+            font-size: 15px;
+        }
+        input::placeholder{
+            font-size: 15px;
+        }
+        .form_buttons{
+            height: 35px;
+            font-size: 18px;
+        } 
+        .moveUp{
+           height: 22px; 
+        }
+        footer{
+            font-size: 12px;
             font-weight: 600;
         }
     }
