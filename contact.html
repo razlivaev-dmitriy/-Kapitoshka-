@@ -13,49 +13,50 @@
 <body>
     <header>
         <div id="header_inner">
-            <div class="burger">
-                <div class="stick"></div>
-                <div class="stick"></div>
-                <div class="stick"></div>
-            </div>
             <img class="logo" src="images/логотип_капитошки.png" alt="Загрузка..." title="Логотип">
-            <div class="but_one" title='"Капитошка"'>"Капитошка"</div>
+            <div class="slogan" title='"Капитошка"'>"Капитошка"</div>
             <ul>
-                <li class="start_href" title="Главная страница"><a href="index.html" >Главная страница</a></li>
-                <li title="Информация для родителей"><a href="relatives.html">Для родителей</a></li>
-                <li title="Информация о нас"><a href="about.html">О нас</a></li>
-                <li title="Как с нами связаться?"><a href="contact.html">Контактные данные</a></li>
+                <li class="start_href" title="Главная страница"><a href="index.html" ><div>Главная страница</div></a></li>
+                <li title="Информация для родителей"><a href="relatives.html"><div>Для родителей</div></a></li>
+                <li title="Информация о нас"><a href="about.html"><div>О нас</div></a></li>
+                <li title="Как с нами связаться?"><a href="contact.html"><div>Контактные данные</div></a></li>
             </ul>
         </div>
     </header>
+    <div class="burger">
+        <div class="stick"></div>
+        <div class="stick"></div>
+        <div class="stick"></div>
+    </div>
     <div class="by_menu">
-        <a href="index.html" class="item" id="first_item_by_menu">Главная страница</ф>
+        <a href="index.html" class="item" id="first_item_by_menu">Главная страница</a>
         <a href="relatives.html" class="item">Для родителей</a>
         <a href="about.html" class="item">О нас</a>
         <a href="contact.html" class="item">Контактные данные</a>
     </div>
     <main>
-        <div class="text">
-            <i>
-                <p>Coветский район, Ул.Зевина, 1Д</p>
-                <p>Телефон:</p>
-                <p><b>+7(904)404-47-85</b></p>
-            </i>
-        </div>
-        <div class="map">
-            <div style="position:relative;overflow:hidden;">
-                <a href="https://yandex.ru/maps/38/volgograd/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;z-index:101;">Волгоград</a>
-                <a href="https://yandex.ru/maps/38/volgograd/?azimuth=1.367103864106482&ll=44.428790%2C48.644880&utm_medium=mapframe&utm_source=maps&z=18.86" style="color:#eee;font-size:12px;position:absolute;top:14px;z-index:101;">Волгоград — Яндекс Карты</a>
-                <iframe src="https://yandex.ru/map-widget/v1/?azimuth=1.367103864106482&ll=44.428790%2C48.644880&z=18.86" width="560" height="400" frameborder="1" allowfullscreen="true" title="Карта"></iframe>
+        <div id="first-letter-info-contact">
+            <div class="text">
+                <i>
+                    <p id="first-p-info-contact">Coветский район, Ул.Зевина, 1Д</p>
+                    <p>Телефон:</p>
+                    <p><b id="number">+7(904)404-47-85</b></p>
+                </i>
+            </div>
+            <div class="map">
+                <div style="position:relative;overflow:hidden;">
+                    <iframe src="https://yandex.ru/map-widget/v1/?azimuth=1.367103864106482&ll=44.428790%2C48.644880&z=18.86" width="560" height="400" frameborder="1" allowfullscreen="true" title="Карта"></iframe>
+                </div>
             </div>
         </div>
     </main>
     <div class="circle"></div>
     <script src="script.js"></script>
     <footer>
-        <div>
-            <p class="footer_text">Группа полного дня "Капитошка", 2023 г.</p>
+        <a href="https://vk.com/club221568431"><img id="a-vk" src="images/znak_vk.png" alt="Загрузка..." width="65"></a>
+        <div id="any-footer-text">
             <p class="footer_text">Made by Разливаев Дмитрий</p>
+            <p class="footer_text">© Разливаев Д. И., НОУ "Капитошка", 2023</p>
         </div>
         <img class="moveUp" title="Наверх" src="images/strelka.png">
     </footer>
